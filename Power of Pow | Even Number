@@ -1,0 +1,14 @@
+class Solution
+{
+    public long sum_of_square_evenNumbers(long n)
+    {
+        long no = n * 2;
+        double a = 0;
+        for (int i = 2;i<=no;i=i+2) {
+            double c = Math.pow(i,2);
+            a = a + c;
+        }
+        long b = (long) a;
+        return b;
+    }
+}
